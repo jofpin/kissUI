@@ -1,0 +1,138 @@
+/*
+* kissUI sexy Interface
+* kissUI
+*
+* Find the project on GitHub: 
+* https://github.com/mrjopino/kissUI
+*
+* ============================
+* Copyright, 2014 by Jose Pino
+* https://twitter.com/mrjopino
+* ============================
+*/
+@import url(http://fonts.googleapis.com/css?family=Monda|Varela+Round);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+.btn_kiss {
+  background-color: #b0d3f1;
+  -webkit-border-radius: 0.30em;
+  -moz-border-radius: 0.30em;
+  -ms-border-radius: 0.30em;
+  -o-border-radius: 0.30em;
+  border-radius: 0.30em;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Monda', Sans-Serif;
+  margin: 0.9em 0.8em 0;
+  outline: none;
+  padding: 0.80em 1.87em;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+.btn_kiss:hover {
+  background-color: #b9d9f5;
+  color: #fff;
+}
+.btn_kiss:active {
+  -webkit-transform: scale(.96);
+  -moz-transform: scale(.96);
+  -ms-transform: scale(.96);
+  -o-transform: scale(.96);
+  transform: scale(.96);
+}
+.btn_kiss.blue {
+  background-color: #227dd1;
+}
+.btn_kiss.blue:hover {
+  background: #3498db;
+  color: #fff;
+}
+.btn_kiss.red {
+  background-color: #e74c3c;
+}
+.btn_kiss.red:hover {
+  background: #f26455;
+  color: #fff;
+}
+.btn_kiss.green {
+  background-color: #48cfad;
+}
+.btn_kiss.green:hover {
+  background-color: #35c9a4;
+  color: #fff;
+}
+.btn_kiss.yellow {
+  background-color: #ffd464;
+  color: #fff;
+}
+.btn_kiss.yellow:hover {
+  background-color: #edd85d;
+  color: #fff;
+}
+.btn_kiss.black {
+  background-color: #333333;
+  color: #fff;
+}
+.btn_kiss.black:hover {
+  background-color: #454545;
+  color: #fff;
+}
+.btn_kiss.twitter {
+  background-color: #33CCFF;
+}
+.btn_kiss.twitter:hover {
+  background: #34b3e5;
+  color: #fff;
+}
+.btn_kiss.facebook {
+  background-color: #3B5998;
+}
+.btn_kiss.facebook:hover {
+  background: #4875B4;
+  color: #fff;
+}
+.btn_kiss.gplus {
+  background-color: #c63D2d;
+}
+.btn_kiss.gplus:hover {
+  background: #d04829;
+  color: #fff;
+}
+
+/* Badges kissUI */
+.badge_kiss {
+  background-color: #b0d3f1;
+  -webkit-border-radius: 0.80em;
+  -moz-border-radius: 0.80em;
+  -ms-border-radius: 0.80em;
+  -o-border-radius: 0.80em;
+  border-radius: 0.80em;
+  color: #fff;
+  font-size: 0.74em;
+  font-family: 'Varela round', Sans-Serif;
+  padding: 0.20em 0.72em 0.23em;
+  white-space: nowrap;
+}
+.badge_kiss:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.badge_kiss.blue {
+  background-color: #227dd1;
+}
+.badge_kiss.green {
+  background-color: #48cfad;
+}
+.badge_kiss.red {
+  background-color: #e74c3c;
+}
+.badge_kiss.yellow {
+  background-color: #ffd464;
+}
+.badge_kiss.black {
+  background-color: #333333;
+}
